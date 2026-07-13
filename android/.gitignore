@@ -1,0 +1,30 @@
+# Gradle files
+.gradle/
+build/
+/*/build/
+
+# Local configuration file (contains local paths, SDK path, etc.)
+local.properties
+
+# Log files
+*.log
+
+# Keystore files / Private keys (Không bao giờ commit lên git)
+*.jks
+*.keystore
+*.pk8
+*.pem
+google-services.json
+
+# Android Studio configuration
+.idea/
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/nav/
+.idea/assetWizardSettings.xml
+
+# macOS system files
+.DS_Store
